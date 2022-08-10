@@ -22,8 +22,7 @@ class App(QWidget):
 
         self.imagewid.setScale((100, 50), Qt.IgnoreAspectRatio) 
         # Setting widget a new size with aspectRatioMode parameter
-        # You can also use Qt.IgnoreAspectRatio, Qt.KeepAspectRatio and Qt.KeepAspectRatioByExpanding for it
-
+        # You can also use Qt.IgnoreAspectRatio, Qt.KeepAspectRatio and Qt.KeepAspectRatioByExpanding
 
 if __name__ == '__main__':
     import sys
