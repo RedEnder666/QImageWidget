@@ -3,10 +3,10 @@
 
 ____
 
-# Usage example
+# Usage example 
 
 ```py
-# usage example
+# Imports (including QImageWidget importing)
 
 if __name__ != '__main__':
     sys.exit()
@@ -31,3 +31,8 @@ if __name__ == '__main__':
     ex.show()
     sys.exit()
 ```
+\
+\
+This is how it looks like(you need to create your own 'somepicture.png' file in example folder) \
+\
+![image](https://user-images.githubusercontent.com/74973491/184006901-22b00414-9549-4ac1-83f4-5fec2d79786b.png)
