@@ -26,3 +26,4 @@ class QImageWidget(QLabel):
         self.resize(QSize(*size))
 
 
+
