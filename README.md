@@ -15,9 +15,13 @@ class App(QWidget):
         super().__init__()
         self.setGeometry(0, 0, 300, 500)
 
-        self.imagewid = QImageWidget(self, 'somepicture.png') # Creating a QImageWidget object containing a 'somepicture.png' picture
+        self.imagewid = QImageWidget(self, 'somepicture.png') 
+        # Creating a QImageWidget object containing a 'somepicture.png' picture
+        
         # You can use absolute path if you want to
-        self.imagewid.setScale((100, 50), Qt.IgnoreAspectRatio) # Setting widget a new size with aspectRatioMode parameter
+
+        self.imagewid.setScale((100, 50), Qt.IgnoreAspectRatio) 
+        # Setting widget a new size with aspectRatioMode parameter
         # You can also use Qt.IgnoreAspectRatio, Qt.KeepAspectRatio and Qt.KeepAspectRatioByExpanding for it
 
 
