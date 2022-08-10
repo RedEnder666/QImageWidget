@@ -31,3 +31,5 @@ if __name__ == '__main__':
     ex.show()
     sys.exit()
 ```
+
+![image](https://user-images.githubusercontent.com/74973491/184006775-2ba66604-f0f8-436e-88b1-6d8179eedc2d.png)
