@@ -2,9 +2,9 @@
  PyQt widget containing images
  ____
 Adding image into pyqt5 ui is very boring, noone likes it, so i made this easy to use class!
-\
-\
-\
+
+
+
 
 # Usage example 
 
