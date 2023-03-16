@@ -5,7 +5,7 @@ from PyQt5.QtCore import QSize, Qt
 
 class QImageWidget(QLabel):
 
-    def __init__(self, parent, img):
+    def __init__(self, parent, img=''):
         super().__init__(parent)
         self.img = img
         self.setImage(img)
