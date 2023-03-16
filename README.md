@@ -41,7 +41,7 @@ class ImageWidget(QWidget):
         self.imageWidget.setImage('example.jpg')
 
         # Set the scaling
-        self.imageWidget.setScale((200, 200), Qt.KeepAspectRatio)
+        self.imageWidget.setScale((400, 400), Qt.KeepAspectRatio)
 
         # Create a button to update the image
         self.btnUpdate = QPushButton('Update', self)
