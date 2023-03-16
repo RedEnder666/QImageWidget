@@ -11,6 +11,7 @@ class QImageWidget(QLabel):
         self.setImage(img)
 
     def setImage(self, img):
+        self.img = img
         image = QPixmap(img)
         if img:
             self.pixmap = QPixmap(img)
