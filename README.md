@@ -1,22 +1,28 @@
 # QImageWidget Documentation
 QImageWidget is a Python library that provides a widget for displaying images in a PyQt5 GUI. The library allows you to easily load images and scale them to fit the widget.
-\
+
+<br />
+<br />
+
+
 # Installation
 You can install QImageWidget by cloning the GitHub repository:
 ```bash
 git clone https://github.com/RedEnder666/QImageWidget
 ```
-\
-#Methods
+<br />
+
+# Methods
 |Method|Arguments|Description|
 |---|---|---|
 |__init__(self, parent, img='')|parent: QWidget, img: str|Initializes a new QImageWidget object with an optional image.|
 |setImage(self, img)|img: str|Sets the image for the QImageWidget.|
 |setScale(self, size, aspectRatioMode=Qt.IgnoreAspectRatio)|size: tuple, aspectRatioMode: Qt.AspectRatioMode|Scales the image to the specified size with the specified aspect ratio mode.|
 
-
+<br />
 # Usage
 Here is an example of how to use QImageWidget:
+
 ```py
 import sys
 from PyQt5.QtCore import Qt, QSize
@@ -61,5 +67,7 @@ if __name__ == '__main__':
 ```
 This example creates a QImageWidget object, sets an image, sets scaling, and adds the widget to a vertical layout along with a button to update the image. When the button is clicked, the updateImage method is called, which changes the image to a different one. The code also creates a QApplication object and displays the widget on the screen.
 
-
+<br />
+<br />
+<br />
 Documentation was made by ChatGPT
