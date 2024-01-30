@@ -66,8 +66,3 @@ if __name__ == '__main__':
     sys.exit(app.exec_())
 ```
 This example creates a QImageWidget object, sets an image, sets scaling, and adds the widget to a vertical layout along with a button to update the image. When the button is clicked, the updateImage method is called, which changes the image to a different one. The code also creates a QApplication object and displays the widget on the screen.
-
-<br />
-<br />
-<br />
-Documentation was made by ChatGPT
