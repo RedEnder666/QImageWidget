@@ -28,7 +28,7 @@ import sys
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton
-from QImageWidget import QImageWidget
+from QImageWidget.QImageWidget import QImageWidget
 
 class ImageWidget(QWidget):
     def __init__(self):

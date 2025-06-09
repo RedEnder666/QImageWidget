@@ -2,6 +2,11 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QLabel, QWidget, QPushBut
 from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtCore import QSize, Qt
 
+'''from PySide2.QtWidgets import QMainWindow, QApplication, QLabel, QWidget, QPushButton
+from PySide2.QtGui import QPixmap, QImage
+from PySide2.QtCore import QSize, Qt'''
+
+
 
 class QImageWidget(QLabel):
 
