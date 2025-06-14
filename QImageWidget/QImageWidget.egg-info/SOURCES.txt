@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+QImageWidget/QImageWidget.egg-info/PKG-INFO
+QImageWidget/QImageWidget.egg-info/SOURCES.txt
+QImageWidget/QImageWidget.egg-info/dependency_links.txt
+QImageWidget/QImageWidget.egg-info/top_level.txt
